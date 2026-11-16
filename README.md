@@ -71,7 +71,7 @@ python3 -m app.rps
 Stocks dashboard:
 
 ```sh
-python -m app.stocks
+python3 -m app.stocks
 ```
 
 ### Web App
@@ -83,7 +83,7 @@ To run the web app:
 flask run
 
 # Mac OS:
-FLASK_APP=web_app flask run
+FLASK_APP=web_app python3 -m flask run
 
 # Windows OS:
 # ... if `export` doesn't work for you, try `set` instead
@@ -91,6 +91,7 @@ FLASK_APP=web_app flask run
 export FLASK_APP=web_app
 flask run
 ```
+To stop the local web server while it is running, press "control+c" from the termal.
 
 ## Testing
 
