@@ -12,3 +12,6 @@ pytest
 pandas
 plotly
 python-dotenv
+
+# web app:
+flask
